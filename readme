@@ -1,0 +1,45 @@
+📌 My First MySQL Project
+
+This project contains my very first MySQL script where I practiced creating a database, defining a table, inserting records, and retrieving data using SQL queries.
+
+🔹 Features Covered 
+
+1-Database Creation
+
+  Removes the database if it already exists.
+
+  Creates a new database named college1.
+
+2-Table Creation
+
+  A table named emp is created with the following columns:
+
+  id INT PRIMARY KEY → A unique number for each record.
+
+--> Primary Key means:
+
+  Every row must have a unique value for this column.
+
+  It cannot be NULL.
+
+  It helps uniquely identify each record.
+
+name VARCHAR(50) → The employee’s name.
+
+--> VARCHAR means "Variable Length Character String".
+
+It can store text up to 50 characters, but only uses storage for the actual number of characters entered.
+
+marks INT → Stores marks (numbers).
+
+grade VARCHAR(1) → Stores the grade as a single character like A, B, C.
+
+city VARCHAR(20) → Stores the city name (up to 20 characters).
+
+3- Insert Records
+
+  Added sample employee records into the emp table.
+
+4- Data Retrieval
+
+Used SELECT * FROM emp; to display all employee records.
